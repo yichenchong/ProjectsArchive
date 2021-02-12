@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flow.</title>
+<link href="templateFormat.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(window).scroll(function(){
+    	$("#header").css("top", Math.max(0, 0 - $(this).scrollTop()));
+	});
+</script>
+</head>
+
+<body>
+	<div class="header" id="header">
+		<div class="leftDiv">
+			<img src="img/flowgo-white.svg" class="small-logo" alt="flow."/>
+		</div>
+		<div class="rightDiv">
+			<a href="#login"><span class="header-link">Log In</span></a>
+			<a href="#login"><span class="header-link">Sign Up</span></a>
+		</div>
+	</div>
+	<div style="height:90vh"></div>
+<div class="footer">
+		<div class="linksDiv">
+			<div class="link-col logo-col"><img src="img/flowgo-white.svg" class="footer-logo" alt="flow."/></div>
+			<div id="product" class="link-col">
+				<div class="footer-head">Product</div>
+				<div class="footer-link"><a href="">FlowMetrics</a></div>
+			  <div class="footer-link"><a href="">Features</a></div>
+				<div class="footer-link"><a href="">Security</a></div>
+			</div>
+			<div id="company" class="link-col">
+				<div class="footer-head">Company</div>
+				<div class="footer-link"><a href="">Meet the Team</a></div>
+				<div class="footer-link"><a href="">Blog</a></div>
+				<div class="footer-link"><a href="">Careers</a></div>
+			</div>
+			<div id="support" class="link-col">
+				<div class="footer-head">Support</div>
+				<div class="footer-link"><a href="">Help</a></div>
+				<div class="footer-link"><a href="">Customer Service</a></div>
+				<div class="footer-link"><a href="">Contact Us</a></div>
+			</div>
+			<div id="legal" class="link-col">
+				<div class="footer-head">Legal Notices</div>
+				<div class="footer-link"><a href="">Terms and Conditions</a></div>
+				<div class="footer-link"><a href="">Privacy Policies</a></div>
+				<div class="footer-link"><a href="">Compliance</a></div>
+			</div>
+		</div>
+		<div class="footer-contacts">
+			<div>
+				<div class="iconDiv"><a href="www.instagram.com"><img src="icons/insta-icon.svg" class="contact-icon" alt="instagram"/></a></div>
+				<div class="iconDiv"><a href="www.facebook.com"><img src="icons/fb-icon.svg" class="contact-icon" alt="facebook"/></a></div>
+				<div class="iconDiv"><a href="mail.google.com"><img src="icons/mail-icon.svg" class="contact-icon" alt="email"/></a></div>
+				<div class="iconDiv"><a href="safetyschool.com"><img src="icons/phone-icon.svg" class="contact-icon" alt="phone"/></a></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

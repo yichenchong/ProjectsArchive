@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+.background-page {
+	background:linear-gradient(to right, rgb(30,85,245), rgb(0,0,200));
+	background-attachment:fixed;
+	color:white;
+	height:90vh;
+	width:100vw;
+}
+
+#slide-1 {
+	display:flex;
+	align-content:center;
+	text-align:center;
+	justify-content:space-around;
+	vertical-align:middle;
+}
+
+.page1-row {
+	text-align: center;
+	font-size:5vh;
+	display:flex;
+	justify-content:center;
+}
+
+.home-computer {
+	height:40vh;
+}
+
+#started1 {
+	background:rgb(0,145,80);
+	transition: all 100ms ease-out;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+}
+#started1:hover {
+	background:rgb(0,100,50);
+	transition: all 200ms ease-in;
+}
+#started1:active {
+	background:rgb(0,145,80);
+	transition: all 5ms ease-out;
+}
+
+.rounded-button {
+	align-self:center;
+	height:5vh;
+	width:10vw;
+	text-align:center;
+	line-height:5vh;
+	border-radius:10vh;
+	font-size:2vh;
+	color:rgb(255,250,250);
+}
+
+#down-arrow-container {
+	height:0.2vh;
+}

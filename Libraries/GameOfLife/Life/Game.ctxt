@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\n\ Class\ controlling\ the\ Game\ of\ Life\ game.\n\n\ @author\ Yi\ Chen\ Chong\n\ @version\ v0.0.1\n
+comment1.params=set
+comment1.target=Game(GameSettings)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Game,\ with\ a\ settings\ object\ passed\ in.\n
+comment2.params=
+comment2.target=Game()
+comment2.text=\n\ Default\ constructor\ for\ objects\ of\ class\ Game\n
+comment3.params=
+comment3.target=void\ nextTurn()
+comment3.text=\n\ Moves\ on\ to\ next\ turn,\ processing\ the\ survival,\ birth,\ and\ death\ of\ each\ cell.\n
+comment4.params=rules\ num
+comment4.target=boolean\ inRules(int[],\ int)
+comment4.text=\n\ Simple\ helper\ method\ to\ return\ whether\ a\ number\ conforms\ to\ a\ rule\ array.\n\ \n\ @param\ rules\ rule\ array,\ contains\ numbers\ to\ check\ against.\n\ @param\ num\ number\ to\ see\ whether\ it\ is\ contained\ within\ the\ rules\ array.\n
+comment5.params=row\ col
+comment5.target=void\ add(int,\ int)
+comment5.text=\n\ A\ method\ to\ create\ a\ living\ cell\ at\ the\ location\ specified.\n\ @param\ row\ the\ row\ of\ the\ specified\ location\n\ @param\ col\ the\ column\ of\ the\ specified\ location\n
+comment6.params=row\ col
+comment6.target=void\ delete(int,\ int)
+comment6.text=\n\ A\ method\ to\ remove\ a\ living\ cell\ from\ the\ specified\ location.\n\ @param\ row\ the\ row\ of\ the\ specified\ location\n\ @param\ col\ the\ column\ of\ the\ specified\ location\n
+comment7.params=row\ col
+comment7.target=boolean\ getState(int,\ int)
+comment7.text=\n\ A\ method\ to\ return\ the\ state\ of\ a\ cell\ at\ a\ particular\ location.\n\ @param\ row\ the\ row\ of\ the\ location\n\ @param\ col\ the\ column\ of\ the\ location\n
+numComments=8

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: open-sans;
+	src:
+		url(./fonts/open-sans.otf)
+		format('opentype');
+}
+
+body {
+	width:100vw;
+	max-width:100%;
+	padding:0;
+	margin:0;
+	font-family:"open-sans";
+}
+a {
+	color:white;
+	text-decoration:none;
+}
+
+.header {
+	position:fixed;
+	background:linear-gradient(to right, rgb(20,73,238), rgb(10,10,190));
+	width:100vw;
+	max-width:100%;
+	height:7vh;
+	line-height: 5vh;
+	min-height:30px;
+}
+
+.leftDiv {
+	float:left;
+}
+
+.small-logo {
+	height:3vh;
+	min-height:20px;
+	padding:2vh 1vw;
+}
+
+.rightDiv {
+	float:right;
+	line-height:7vh;
+}
+
+.header-link {
+	margin:auto 1vw;
+	transition: all 300ms ease-out;
+}
+
+.header-link:hover {
+	opacity:0.9;
+	transition: all 300ms ease-in;
+}
+
+.replace-header {
+	position:absolute;
+}
+
+.footer {
+	background:linear-gradient(to bottom, rgb(20,73,238), darkblue);
+	width:100vw;
+	max-width:100%;
+	color:white;
+}
+
+.footer-logo {
+	width: 10vw;
+	display:inline-block;
+	height:100%;
+	vertical-align:middle;
+	min-height:50px;
+}
+
+.linksDiv {
+	display:flex;
+	width:100%;
+	justify-content:center;
+	height:100%;
+	vertical-align:middle;
+}
+
+.link-col {
+	float:left;
+	padding:2vh 5vw;
+	width:9vw;
+}
+
+.footer-head {
+	padding:1vh 0;
+	font-weight:999;
+}
+
+.footer-link {
+	padding:0.5vh 0;
+	transition: all 100ms ease-in;
+}
+
+.footer-link:hover {
+	opacity:0.5;
+	font-size:101%;
+	transition: all 300ms ease-out;
+}
+
+
+.footer-contacts {
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+
+.logo-col {
+	padding-bottom:8vh;
+}
+
+.contact-icon {
+	min-width:3vw;
+	min-height:3vh;
+	max-width:5vw;
+	max-height:5vh;
+	transition: all 100ms ease-in;
+}
+
+.contact-icon:hover {
+	min-width:4vw;
+	min-height:4vh;
+	max-width:6vw;
+	max-height:6vh;
+
+	transition: all 300ms ease-out;
+	opacity:0.8;
+}
+
+.iconDiv {
+	float:left;
+	padding: 2vh 1vw;
+	padding-bottom:5vh;
+}
+
+.overlay {
+	position:fixed;
+	display:none;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+}

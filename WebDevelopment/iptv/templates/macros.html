@@ -1,0 +1,10 @@
+{% macro channel(c) -%}
+	<div class="dropdownlink-container" >
+		<div class="logo-container"><img src="{{ c.logo }}"/></div>
+		<div class="link-container"><a href="?url={{ quote(c.url) }}"> {{ c.name }} </a></div>
+		<div class="channel-actions">
+			<a href="/favorite/?url={{ quote(c.url) }}">Favorite</a>
+			<a href="/blacklist/?url={{ quote(c.url) }}">Delete</a>
+		</div>
+	</div>
+{%- endmacro %}

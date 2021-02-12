@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ExtraMath
+comment0.text=\n\ Write\ a\ description\ of\ class\ extraMath\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=a\ b
+comment1.target=boolean\ erquals(double,\ double)
+comment1.text=\n\ Returns\ whether\ a\ certain\ value\ is\ equal\ to\ a\ certain\ other\ value,\ within\ the\ bounds\ of\ acceptable\ error.\n\n\ @param\ \ a\ \ the\ first\ double\ value\n\ @param\ \ b\ \ the\ second\ double\ value\n\ @return\ \ \ \ whether\ the\ values\ are\ within\ the\ acceptable\ error\ value\n
+comment2.params=a\ b\ acceptableError
+comment2.target=boolean\ erquals(double,\ double,\ double)
+numComments=3

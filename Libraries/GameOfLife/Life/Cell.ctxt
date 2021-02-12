@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\n\ Basic\ game\ units\n\n\ @author\ Yi\ Chen\ Chong\n\ @version\ v0.0.1\n
+comment1.params=
+comment1.target=Cell()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Cell\n
+comment2.params=
+comment2.target=void\ isBorn()
+comment2.text=\n\ Makes\ the\ cell\ living\n
+comment3.params=
+comment3.target=void\ dies()
+comment3.text=\n\ Makes\ the\ cell\ dead\n
+comment4.params=
+comment4.target=boolean\ getState()
+comment4.text=\n\ Gets\ the\ state\ of\ the\ cell\n\ @returns\ whether\ the\ cell\ is\ alive\n
+numComments=5

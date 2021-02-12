@@ -1,0 +1,36 @@
+{% import 'macros.html' as macros with context %}
+
+<head>
+	<link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='stylesheets/format.css') }}">
+</head>
+
+<body>
+		<div id="header">
+		</div>
+		<div id="fullmenu">
+			{% for tag in list(tagData.keys()) %}
+				<button class="dropdown-button">{{ tag }}</button>
+				<div class="dropdown-container">
+					{% for c in tagData[tag] %}
+						{{ macros.channel(c) }}
+					{% endfor %}
+				</div>
+			{% endfor %}
+			<script>
+				var dropdown = document.getElementsByClassName("dropdown-button");
+				var i;
+
+				for (i = 0; i < dropdown.length; i++) {
+				  dropdown[i].addEventListener("click", function() {
+				    this.classList.toggle("active");
+				    var dropdownContent = this.nextElementSibling;
+				    if (dropdownContent.style.display === "block") {
+				      dropdownContent.style.display = "none";
+				    } else {
+				      dropdownContent.style.display = "block";
+				    }
+				  });
+				}
+			</script>
+		</div>
+</body>

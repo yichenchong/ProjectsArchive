@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Coordinate
+comment0.text=\n\ The\ Coordinate\ class\ creates\ a\ point\ in\ a\ Coordinate\ plane.\n\n\ @author\ Yi\ Chen\ Chong\n\ @version\ 1.0.0\n
+comment1.params=xInput\ yInput
+comment1.target=Coordinate(double,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Coordinate\n
+comment2.params=
+comment2.target=double\ getX()
+comment2.text=\n\ returns\ the\ x\ coordinate\ of\ the\ coordinate\ pair\n\ @return\ \ \ \ the\ x\ coordinate\n
+comment3.params=
+comment3.target=double\ getY()
+comment3.text=\n\ returns\ the\ y\ coordinate\ of\ the\ coordinate\ pair\n\ @return\ \ \ \ the\ y\ coordinate\n
+comment4.params=
+comment4.target=double[]\ getCoord()
+comment4.text=\n\ returns\ the\ x\ and\ y\ coordinates\ of\ the\ coordinate\ pair\ as\ an\ array\n\ @return\ \ \ \ the\ coordinate\ pair\ as\ an\ array\n
+comment5.params=
+comment5.target=double[]\ getPolar()
+comment6.params=point
+comment6.target=void\ printPoint(Coordinate)
+comment7.params=
+comment7.target=void\ printPoint()
+comment8.params=other
+comment8.target=boolean\ equals(Coordinate)
+numComments=9

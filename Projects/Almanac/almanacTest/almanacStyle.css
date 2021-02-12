@@ -1,0 +1,18 @@
+.hide_lastName,
+.hide_preferredName
+.hide_grade
+.hide_email,
+.hide_ID,
+.hide_campus,
+.hide_school,
+.hide_firstName
+{display:none}
+
+.schoologyPhoto {
+	display:block;
+	margin:auto auto;
+	align-content:center;
+}
+.title {
+	font-size:40pt;
+}

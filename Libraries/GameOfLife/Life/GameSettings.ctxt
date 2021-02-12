@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GameSettings
+comment0.text=\n\ Class\ that\ contains\ the\ settings\ for\ the\ game\n\n\ @author\ Yi\ Chen\ Chong\n\ @version\ v0.0.1\n
+comment1.params=rows\ columns\ wraparound\ born\ survives
+comment1.target=GameSettings(int,\ int,\ boolean,\ int[],\ int[])
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GameSettings\n
+comment2.params=rows\ columns\ wraparound
+comment2.target=GameSettings(int,\ int,\ boolean)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ GameSettings\n
+comment3.params=rows\ columns\ born\ survives
+comment3.target=GameSettings(int,\ int,\ int[],\ int[])
+comment3.text=\n\ Constructor\ for\ objects\ of\ class\ GameSettings\n
+comment4.params=rows\ columns
+comment4.target=GameSettings(int,\ int)
+comment4.text=\n\ Constructor\ for\ objects\ of\ class\ GameSettings\n
+comment5.params=
+comment5.target=GameSettings()
+comment5.text=\n\ Constructor\ for\ objects\ of\ class\ GameSettings\n
+comment6.params=
+comment6.target=Rules\ rules()
+comment6.text=\n\ Method\ that\ returns\ the\ rules\ for\ the\ game\n\ @returns\ the\ Rules\ object\n
+comment7.params=
+comment7.target=Matrix\ grid()
+comment7.text=\n\ Method\ that\ returns\ the\ grid\ for\ the\ game\n\ @returns\ a\ Matrix\ object\n
+numComments=8

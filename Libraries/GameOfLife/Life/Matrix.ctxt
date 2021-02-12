@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Matrix
+comment0.text=\n\ A\ grid\ to\ store\ the\ game\ in\n\n\ @author\ Yi\ Chen\ Chong\n\ @version\ v0.0.1\n
+comment1.params=rows\ columns\ wraparound
+comment1.target=Matrix(int,\ int,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Matrix\n
+comment2.params=row\ column
+comment2.target=void\ add(int,\ int)
+comment2.text=\n\ A\ method\ to\ create\ a\ living\ cell\ at\ the\ location\ specified.\n\ @param\ row\ the\ row\ of\ the\ specified\ location\n\ @param\ col\ the\ column\ of\ the\ specified\ location\n
+comment3.params=row\ column
+comment3.target=void\ delete(int,\ int)
+comment3.text=\n\ A\ method\ to\ remove\ a\ living\ cell\ from\ the\ specified\ location.\n\ @param\ row\ the\ row\ of\ the\ specified\ location\n\ @param\ col\ the\ column\ of\ the\ specified\ location\n
+comment4.params=row\ column
+comment4.target=int\ getNeighborhood(int,\ int)
+comment4.text=\n\ A\ method\ to\ get\ the\ number\ of\ living\ neighbours\ a\ cell\ has.\n\ @param\ row\ the\ row\ of\ the\ cell\n\ @param\ column\ the\ column\ of\ the\ cell\n\ @returns\ the\ number\ of\ living\ neighbours\n
+comment5.params=row\ column
+comment5.target=boolean\ getState(int,\ int)
+comment5.text=\n\ returns\ the\ state\ of\ the\ cell\ at\ a\ certain\ location\n\ @param\ row\ the\ row\ of\ the\ cell\n\ @param\ column\ the\ column\ of\ the\ cell\n\ @returns\ whether\ the\ cell\ is\ alive\n
+comment6.params=
+comment6.target=int[]\ gridSize()
+comment6.text=\n\ Gets\ the\ size\ of\ the\ matrix\n\ @returns\ an\ array\ of\ length\ 2\ representing\ the\ matrix's\ rows\ and\ columns.\n
+comment7.params=
+comment7.target=boolean\ wrap()
+comment7.text=\n\ Gets\ whether\ the\ matrix\ is\ wrapped\ around\n\ @returns\ whether\ wraparound\ is\ selected\n
+numComments=8

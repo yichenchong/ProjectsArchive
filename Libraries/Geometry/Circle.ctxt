@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\n\ Write\ a\ description\ of\ class\ Circle\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=c\ r
+comment1.target=Circle(Coordinate,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Circle\n
+comment2.params=x
+comment2.target=boolean\ pointOnCircle(Coordinate)
+comment2.text=\n\ returns\ whether\ a\ point\ is\ on\ the\ circumference\ of\ a\ circle\n\n\ @param\ \ x\ \ the\ coordinates\ of\ a\ point\n\ @return\ \ \ \ whether\ the\ point\ is\ on\ the\ circumference\ of\ a\ circle\n
+comment3.params=
+comment3.target=double\ radius()
+comment4.params=
+comment4.target=Coordinate\ center()
+comment5.params=x
+comment5.target=boolean\ pointInCircle(Coordinate)
+comment5.text=\n\ returns\ whether\ a\ point\ is\ in\ a\ circle\n\n\ @param\ \ x\ \ the\ coordinates\ of\ a\ point\n\ @return\ \ \ \ whether\ the\ point\ is\ in\ a\ circle\n
+comment6.params=line1
+comment6.target=boolean\ intersects(Line)
+comment7.params=circ
+comment7.target=boolean\ intersects(Circle)
+numComments=8

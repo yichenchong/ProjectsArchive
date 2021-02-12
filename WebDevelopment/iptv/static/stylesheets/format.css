@@ -1,0 +1,112 @@
+body {
+	margin:0;
+	padding:0;
+	width:100vw;
+	height:100vh;
+}
+
+.dropdown-button {
+	width:100%;
+	height:5vh;
+	font-size:30px;
+}
+
+.dropdown-container {
+	display:none;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	color:darkgray;
+}
+a:active {
+	color:black;
+}
+
+button {
+	background-color:gray;
+}
+button:hover {
+	background-color:darkgray;
+}
+button:active {
+	background-color:gray;
+}
+
+.dropdownlink-container {
+	height:4vh;
+	font-size:20px;
+	display:flex;
+	background-color:lightgray;
+}
+.dropdownlink-container img {
+	max-height:4vh;
+	max-width: 100%;
+}
+.logo-container {
+	width:20%;
+	height:4vh;
+}
+.link-container {
+	height:4vh;
+	width:60%;
+}
+.channel-actions {
+	height:4vh;
+	width:20%;
+}
+.dropdownlink-container a {
+	max-height:4vh;
+	max-width:100%;
+}
+
+#header {
+	width:100%;
+	height:5%;
+	background-color:blue;
+}
+
+#body {
+	width:100%;
+	height:95%;
+}
+
+#nonmenu {
+	width:70vw;
+	height:100%;
+	float:left;
+}
+
+#playerContainer {
+	width:70vw;
+	height:70vh;
+}
+
+#recents {
+	width:100%;
+	height:25vh;
+	background-color:lightgray;
+	overflow:scroll;
+	text-align:center;
+}
+
+#menu {
+	width:30vw;
+	height:100%;
+	float:right;
+	overflow:scroll;
+	text-align:center;
+	background-color:lightgray;
+}
+
+#fullmenu {
+	width:100%vw;
+	height:100%;
+	float:right;
+	overflow:scroll;
+	text-align:center;
+	background-color:lightgray;
+}

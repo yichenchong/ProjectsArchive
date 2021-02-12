@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Graduation
+comment0.text=\n\ Write\ a\ description\ of\ class\ Graduation\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Graduation()
+comment2.params=seats\ studentList
+comment2.target=void\ fillSeats(java.lang.String[][],\ java.util.List)
+comment3.params=row
+comment3.target=void\ addLineRight(java.lang.String[])
+comment4.params=row
+comment4.target=void\ addLineLeft(java.lang.String[])
+comment5.params=seats
+comment5.target=void\ fillLines(java.lang.String[][])
+numComments=6

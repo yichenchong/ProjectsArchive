@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ContactList
+comment0.text=\n\ Write\ a\ description\ of\ class\ ContactList\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=contactList
+comment1.target=ContactList(java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ContactList\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=name\ number
+comment3.target=void\ changeNumber(java.lang.String,\ java.lang.String)
+numComments=4

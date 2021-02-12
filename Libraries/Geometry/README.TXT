@@ -1,7 +1,5 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+Geometry was an effort to create a basic Euclidean geometry library for robotic navigation purposes. The library was useful in producing triangulation during the FIRST Tech Challenge.
 ------------------------------------------------------------------------
 
 PROJECT TITLE: Geometry

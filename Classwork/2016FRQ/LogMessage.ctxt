@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LogMessage
+comment0.text=\n\ Write\ a\ description\ of\ class\ LogMessage\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=message
+comment1.target=LogMessage(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ LogMessage\n
+comment2.params=keyword
+comment2.target=boolean\ containsWord(java.lang.String)
+comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+numComments=3

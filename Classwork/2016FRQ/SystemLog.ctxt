@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SystemLog
+comment0.text=\n\ Write\ a\ description\ of\ class\ SystemLog\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=str
+comment1.target=SystemLog(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SystemLog\n
+comment2.params=keyword
+comment2.target=java.util.List\ removeMessages(java.lang.String)
+numComments=3

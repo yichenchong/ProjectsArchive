@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=EncodeRule
+comment0.text=\n\ Write\ a\ description\ of\ class\ EncodeRule\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=ruleArray
+comment1.target=EncodeRule(java.lang.String[])
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ EncodeRule\n
+comment2.params=letter\ encode
+comment2.target=java.lang.String\ encodeLetter(java.lang.String,\ boolean)
+comment3.params=word\ encode
+comment3.target=java.lang.String\ encodeWord(java.lang.String,\ boolean)
+numComments=4

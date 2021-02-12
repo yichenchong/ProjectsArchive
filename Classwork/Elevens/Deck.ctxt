@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Deck
+comment0.text=\n\ Write\ a\ description\ of\ class\ Deck\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=ranks\ suits\ values
+comment1.target=Deck(java.lang.String[],\ java.lang.String[],\ int[])
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Deck\n
+comment2.params=
+comment2.target=Deck()
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=
+comment4.target=int\ size()
+comment5.params=
+comment5.target=Card\ deal()
+comment6.params=
+comment6.target=void\ shuffle()
+comment7.params=set
+comment7.target=java.util.ArrayList\ shuffle(java.util.ArrayList)
+numComments=8

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Crossword
+comment0.text=\n\ Write\ a\ description\ of\ class\ Crossword\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=blackSquares
+comment1.target=Crossword(boolean[][])
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Crossword\n
+comment2.params=r\ c\ blackSquares
+comment2.target=boolean\ toBeLabeled(int,\ int,\ boolean[][])
+comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+numComments=3

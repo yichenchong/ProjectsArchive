@@ -68,10 +68,6 @@ def isPermutation(eachWord):
             return False
     return True
 
-# Simplifies dictionary so that "long" words don't exist
-# "Long" words are defined as words that have any letters that don't exist in the input word
-# This first sweep through the dictionary creates a much shorter word list, and so decreases the
-# time complexity of the spell check function later
 finalList = filter(isPermutation, dictionaryWords)
 
 # Removes weird double glitch, and sorts
